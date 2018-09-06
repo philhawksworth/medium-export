@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: medium
+  size: 1
+  alias: item
+permalink: posts/{{ item.path }}/index.html
+---
+
+<h2>{{ item.title }} by {{ item['dc:creator'] }} </h2>
+<div class="post-content">
+  {{ item['content:encoded'] | safe }}
+</div>

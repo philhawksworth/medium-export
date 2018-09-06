@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ title }}</title>
+    {% set css %}{% include "css/styles.css" %}{% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="/">home</a> | <a href="/about">about</a>
+        <h1>{{ title }}</h1>
+      </div>
+    </header>
+    <div class="content container">
+    {{ content | safe }}
+    </div>
+  </body>
+</html>

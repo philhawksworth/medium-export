@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+title: Articles from Medium
+---
+
+<ul>
+{% for item in medium %}
+  <li><a href="/posts/{{ item.path }}">{{ item.title }}</a></li>
+ {% endfor %}
+</ul>
