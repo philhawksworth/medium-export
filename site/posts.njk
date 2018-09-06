@@ -6,8 +6,10 @@ pagination:
   alias: item
 permalink: posts/{{ item.path }}/index.html
 ---
-
-<h2>{{ item.title }} by {{ item['dc:creator'] }} </h2>
-<div class="post-content">
-  {{ item['content:encoded'] | safe }}
+<div class="post">
+  <p class="meta">Published on {{ item.pubDate | date }} <br/>by {{ item['dc:creator'] }}</p>
+  <h2>{{ item.title }}</h2>
+  <div class="post-content">
+    {{ item['content:encoded'] | safe }}
+  </div>
 </div>
