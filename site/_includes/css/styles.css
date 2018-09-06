@@ -8,8 +8,13 @@ body {
   text-align: center;
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
   color: rgba(0,0,0,.64);
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.6;
+}
+@media (min-width: 800px) {
+  body {
+    font-size: 20px;
+  }
 }
 
 a:link,
@@ -34,10 +39,15 @@ footer {
 
 
 .container {
-  width: 700px;
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+}
+@media (min-width: 800px) {
+  .container {
+    width: 700px;
+  }
 }
 
 hr {
