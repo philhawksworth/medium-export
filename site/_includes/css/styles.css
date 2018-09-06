@@ -6,6 +6,10 @@ body {
 
 body {
   text-align: center;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  color: rgba(0,0,0,.64);
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 a:link,
@@ -15,8 +19,9 @@ a:visited {
 
 header {
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
   margin-bottom: 4em;
+  font-size: 0.7em;
   color: rgba(0,0,0,.64);
   border-bottom: solid 1px rgba(0,0,0,.1);
 }
@@ -28,18 +33,29 @@ header {
   text-align: left;
 }
 
-.container img {
+.post-content img {
   width: 100%;
 }
 
+ul.listing {
+  list-style: none;
+  list-style-position: outside;
+  padding-top: 2em;
+  padding-left: 0;
+}
 
+ul.listing li {
+  margin-bottom: 3em;
+}
 
+ul.listing h3 {
+  padding-top:0;
+  margin-top:0;
+}
 
-div.post {
-  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-  color: rgba(0,0,0,.64);
-  font-size: 20px;
-  line-height: 1.6;
+ul.listing p.meta {
+  padding-bottom:0.5em;
+  margin-bottom:0;
 }
 
 p.meta {
@@ -47,7 +63,7 @@ p.meta {
   font-size: 0.8em;
 }
 
-h2,h3,h4 {
+h1,h2,h3,h4 {
   font-family: sans-serif;
   line-height: 1.1;
   color: rgba(0,0,0,.84);
