@@ -13,6 +13,14 @@ a:visited {
   color: rgba(0,0,0,.9);
 }
 
+header {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-bottom: 4em;
+  color: rgba(0,0,0,.64);
+  border-bottom: solid 1px rgba(0,0,0,.1);
+}
+
 .container {
   width: 700px;
   margin-left: auto;
@@ -25,13 +33,6 @@ a:visited {
 }
 
 
-header {
-  padding-top: 2em;
-  padding-bottom: 1em;
-  margin-bottom: 4em;
-  color: rgba(0,0,0,.64);
-  border-bottom: solid 1px rgba(0,0,0,.1);
-}
 
 
 div.post {
@@ -69,4 +70,30 @@ figcaption {
   text-align: center;
   color: rgba(0,0,0,.46);
   font-size: 0.7em;
+}
+
+blockquote {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -2em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-left: solid 3px #333;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #eee;
+  color: #333;
+  font-size: 0.7em;
+  overflow-x: scroll;
 }
