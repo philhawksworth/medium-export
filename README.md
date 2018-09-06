@@ -21,9 +21,8 @@ The whole thing should take less than a minute!
 ### Medium RSS Linkspiration:
 
 - https://medium.com/feed/netlify
-- https://medium.com/feed/invironment/tagged/jamstack
-- https://medium.com/tag/front-end-development
-- https://medium.com/tag/design
+- https://medium.com/feed/memory-leak
+- https://m.signalvnoise.com/feed
 
 
 ## Local development
