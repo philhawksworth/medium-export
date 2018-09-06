@@ -3,17 +3,19 @@ layout: layouts/base.njk
 title: Articles from Medium
 ---
 
-<h1>Medium JAMstack</h1>
+<h1>Medium to Small JAMstack</h1>
 <p>
-  Since Medium announced that they would be discontinuing support for custom domains, some have been considering reclaiming their content and publishing on their own sites.
+  A little while after <a href="https://help.medium.com/hc/en-us/articles/115003053487-Custom-Domains-service-deprecation">Medium announced</a> that they would be discontinuing support for custom domains, <a href="https://twitter.com/dhh/status/1037398155879309312">some have been considering reclaiming their content</a> and publishing on their own sites.
 </p>
 <p>
-  This site gets content from Medium's RSS Feeds and serves the articles in a pre-rendered site which you can control and host for yourself on Netlify. You can configure and deply your own for free with a couple of clicks.
+  This site gets content from <a href="https://help.medium.com/hc/en-us/articles/214874118-RSS-feeds">Medium's RSS Feeds</a> and serves the articles in a pre-rendered site which you can control and host for yourself. You can configure and <a href="/get-yours">deploy your own</a> for free on Netlify with a couple of clicks.
 </p>
 
+<hr/>
 
+<h2>Articles <small>(sourced from {{ medium.url }})</small></h2>
 <ul class="listing">
-{% for item in medium %}
+{% for item in medium.posts %}
   <li>
     <p class="meta">Published on {{ item.pubDate | date }} by {{ item['dc:creator'] }}</p>
     <h3><a href="/posts/{{ item.path }}">{{ item.title }}</a></h3>

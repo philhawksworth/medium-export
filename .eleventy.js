@@ -13,7 +13,8 @@ module.exports = function(eleventyConfig) {
       input: "site",
       output: "dist",
       data: "_data"
-    }
+    },
+    feed: process.env.MEDIUM_FEED ||'https://medium.com/feed/netlify'
   };
 
 };
