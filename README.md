@@ -22,6 +22,8 @@ The whole thing should take less than a minute!
 
 - https://medium.com/feed/netlify
 - https://medium.com/feed/memory-leak
+- https://medium.com/feed/@philhawksworth
+- https://medium.com/feed/@addyosmani
 - https://m.signalvnoise.com/feed
 
 
