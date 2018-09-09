@@ -1,6 +1,6 @@
 # Medium Export
 
-An example of how easy it can be to generate a site based on an RSS feed. IN this instance focussed on Medium's RSS Feeds
+An example of how easy it can be to generate a site based on an RSS feed. In this instance focussed on Medium's RSS Feeds
 
 
 ## Quick start
@@ -32,7 +32,7 @@ The whole thing should take less than a minute!
 This site is built with [Eleventy](https://11ty.io) and have very few prerequisites:
 
 - Node
-- Npm or Yarm
+- Npm or Yarn
 
 ### Install and bootstrap
 
