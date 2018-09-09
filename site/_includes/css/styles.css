@@ -34,6 +34,7 @@ header {
   border-bottom: solid 1px rgba(0,0,0,.1);
 }
 footer {
+  margin-top: 6em;
   border-top: solid 1px rgba(0,0,0,.1);
 }
 
