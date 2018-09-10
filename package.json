@@ -9,8 +9,7 @@
   },
   "scripts": {
     "start": "gulp watch & eleventy --serve",
-    "css": "gulp css",
-    "build": "eleventy"
+    "build": "gulp build && eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "0.5.3",
