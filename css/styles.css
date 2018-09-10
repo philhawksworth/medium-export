@@ -1,0 +1,148 @@
+$feather: #eee;
+$bodytext: #444;
+$gentletext: #888;
+$verygentletext: #888;
+$heavytext: #111;
+$pagecolor: #fff;
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  color: $bodytext;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+a:link,
+a:visited {
+  color: #222;
+}
+
+header,
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+  font-size: 0.7em;
+  color: $gentletext;
+}
+header {
+  border-bottom: solid 1px $feather;
+}
+footer {
+  margin-top: 6em;
+  border-top: solid 1px $feather;
+}
+
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+@media (min-width: 800px) {
+  .container {
+    width: 700px;
+  }
+}
+
+hr {
+  border-style: none;
+  border-bottom: solid 1px $feather;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.post-content img {
+  width: 100%;
+}
+
+p.meta {
+  color: $bodytext;
+  font-size: 0.8em;
+}
+
+ul.listing {
+  list-style: none;
+  list-style-position: outside;
+  padding-top: 1em;
+  padding-left: 0;
+  li {
+    margin-bottom: 3em;
+  }
+  h3 {
+    padding-top:0;
+    margin-top:0;
+  }
+  p.meta {
+    padding-bottom:0.5em;
+    margin-bottom:0;
+  }
+}
+
+
+h1,h2,h3,h4 {
+  font-family: sans-serif;
+  line-height: 1.1;
+  color: $heavytext;
+}
+
+h2 {
+  font-size: 34px;
+  letter-spacing: -.01em;
+  small {
+    font-size: 0.5em;
+    font-weight: normal;
+    color: $gentletext;
+  }
+}
+
+h3 {
+  margin-top: 2em;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+figcaption {
+  text-align: center;
+  color: $verygentletext;
+  font-size: 0.7em;
+}
+
+blockquote {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -2em;
+  padding-left: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-left: solid 3px $gentletext;
+  em {
+    font-style: normal;
+  }
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: $feather;
+  font-size: 0.7em;
+  overflow-x: scroll;
+}

@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Medium to Small JAMstack {{ title }}</title>
-    {% set css %}{% include "css/styles.css" %}{% endset %}
-    <style>{{ css | cssmin | safe }}</style>
+    <style>{% include "css/styles.css" %}</style>
   </head>
   <body>
     <header>
